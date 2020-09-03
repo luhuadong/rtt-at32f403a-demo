@@ -8,6 +8,7 @@ cwd = GetCurrentDir()
 # add the general drivers.
 src = Split("""
 main.c
+drv_flash_f4.c
 """)
 
 CPPPATH = [cwd, str(Dir('#'))]

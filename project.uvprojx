@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>RT_USING_ARM_LIBC, AT32F403AVGT7, USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>applications;.;Libraries\AT32_Std_Driver\CMSIS\AT32\AT32F4xx\inc;Libraries\AT32_Std_Driver\CMSIS;Libraries\AT32_Std_Driver\AT32F4xx_StdPeriph_Driver\inc;rt-thread\libcpu\arm\common;rt-thread\libcpu\arm\cortex-m4;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\include;board;board\msp;Libraries\rt_drivers;rt-thread\components\dfs\include;rt-thread\components\dfs\filesystems\devfs;rt-thread\components\dfs\filesystems\elmfat;rt-thread\components\finsh;.;rt-thread\include;rt-thread\components\libc\compilers\armlibc;rt-thread\components\libc\compilers\common</IncludePath>
+              <IncludePath>applications;.;Libraries\AT32_Std_Driver\CMSIS\AT32\AT32F4xx\inc;Libraries\AT32_Std_Driver\CMSIS;Libraries\AT32_Std_Driver\AT32F4xx_StdPeriph_Driver\inc;rt-thread\libcpu\arm\common;rt-thread\libcpu\arm\cortex-m4;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\include;rt-thread\components\drivers\include;board;board\msp;Libraries\rt_drivers;rt-thread\components\dfs\include;rt-thread\components\dfs\filesystems\devfs;rt-thread\components\dfs\filesystems\elmfat;rt-thread\components\finsh;.;rt-thread\include;rt-thread\components\libc\compilers\armlibc;rt-thread\components\libc\compilers\common</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -385,6 +385,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>applications\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_flash_f4.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\drv_flash_f4.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -560,6 +565,11 @@
               <FileName>pin.c</FileName>
               <FileType>1</FileType>
               <FilePath>rt-thread\components\drivers\misc\pin.c</FilePath>
+            </File>
+            <File>
+              <FileName>mtd_nor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>rt-thread\components\drivers\mtd\mtd_nor.c</FilePath>
             </File>
             <File>
               <FileName>serial.c</FileName>
