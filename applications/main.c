@@ -71,7 +71,7 @@ static void flash_read(int argc, char *argv[])
     rt_kprintf("flash read\n");
 
     //int at32_flash_read(rt_uint32_t addr, rt_uint8_t *buf, size_t size);
-    at32_flash_read(test_addr, r_buf, BUF_SIZE);
+    //at32_flash_read(test_addr, r_buf, BUF_SIZE);
 
     show_hex(r_buf, BUF_SIZE);
     rt_kprintf("read: %s\n", r_buf);
@@ -82,7 +82,7 @@ static void flash_write(int argc, char *argv[])
     rt_kprintf("flash write\n");
 
     //int at32_flash_write(rt_uint32_t addr, const rt_uint8_t *buf, size_t size);
-    at32_flash_write(test_addr, w_buf, BUF_SIZE);
+    //at32_flash_write(test_addr, w_buf, BUF_SIZE);
 
     show_hex(w_buf, BUF_SIZE);
     rt_kprintf("write: %s\n", w_buf);
@@ -93,7 +93,7 @@ static void flash_erase(int argc, char *argv[])
     rt_kprintf("flash erase\n");
 
     //int at32_flash_erase(rt_uint32_t addr, size_t size);
-    at32_flash_erase(test_addr, BUF_SIZE);
+    //at32_flash_erase(test_addr, BUF_SIZE);
 }
 
 #ifdef FINSH_USING_MSH
