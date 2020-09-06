@@ -190,5 +190,6 @@
 #define BSP_USING_UART1
 #define BSP_USING_UART2
 #define BSP_USING_UART3
+#define BSP_USING_ON_CHIP_FLASH
 
 #endif

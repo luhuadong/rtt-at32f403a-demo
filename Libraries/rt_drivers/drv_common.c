@@ -38,6 +38,7 @@ void rt_hw_systick_init(void)
 	NVIC_Init(&NVIC_InitStructure);
 }
 
+#if 0
 /**
  * This is the timer interrupt service routine.
  *
@@ -52,6 +53,7 @@ void SysTick_Handler(void)
     /* leave interrupt */
     rt_interrupt_leave();
 }
+#endif
 
 /**
  * This function will delay for some us.
